@@ -1,0 +1,1 @@
+console.log ("Olá, mundo! meu nome é Pedro")
