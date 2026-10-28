@@ -5,9 +5,9 @@ const mediaEscola = 7
 for (let i = 0; i < medias.length; i++) {
 
     if (medias[i] >= mediaEscola) {
-        console.log("Aluno(a): " + nomes[i] + ", está Aprovado")
+        console.log("Aluno(a): " + nomes[i] + ", está Aprovado " + "Nota: " + medias[i])
     } else {
-        console.log("Aluno(a): " + nomes[i] + ", está Reprovado")
+        console.log("Aluno(a): " + nomes[i] + ", está Reprovado " + "Nota: " + medias[i])
     }
 }
 
