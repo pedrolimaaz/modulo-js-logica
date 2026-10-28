@@ -76,6 +76,7 @@ while (jogando) {
     } else if (escolha === "3" && inventario.includes("moeda furada")) {
       console.log("A moeda cai sem fazer barulho. Uma corda sobe do fundo do poço, sozinha.");
       inventario.push("corda");
+      // Aqui tem uma resposta
       console.log("Inventário: " + inventario);
     }
   } else if (local === "ponte") {
