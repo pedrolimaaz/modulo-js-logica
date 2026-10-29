@@ -76,7 +76,7 @@ while (jogando) {
       console.log("A água é gelada. Vida: " + vida);
     } else if (escolha === "3" && inventario.includes("moeda furada")) {
       console.log("A moeda cai sem fazer barulho. Uma corda sobe do fundo do poço, sozinha.");
-      inventario.splice(0,1)
+      inventario.shift()
       inventario.push("corda");
       console.log("Inventário: " + inventario);
     }
